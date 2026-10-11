@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tech AI | Your Technology Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <header class="chat-header">
+            <div class="logo">TECH AI</div>
+            <h1>Your Technology Assistant</h1>
+            <p>Programming • Software Engineering • Cybersecurity • IT</p>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Ready to help you learn
+            </div>
+        </header>
+
+        <main id="chat-messages" aria-live="polite">
+            <div class="welcome-message">
+                <h2>Welcome to Tech AI! 👋</h2>
+
+                <p>
+                    Your intelligent technology assistant.
+                    Ask me about programming, web development,
+                    cybersecurity, computer science, and more.
+                </p>
+
+                <div class="suggestions">
+                    <button type="button" class="suggestion">
+                        Explain Python programming
+                    </button>
+
+                    <button type="button" class="suggestion">
+                        What is cybersecurity?
+                    </button>
+
+                    <button type="button" class="suggestion">
+                        How do websites work?
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <form id="chat-form" class="input-container">
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Ask Tech AI anything about technology..."
+                autocomplete="off"
+                maxlength="4000"
+                required
+            >
+
+            <button id="askButton" type="submit" aria-label="Send message">
+                ↑
+            </button>
+        </form>
+
+        <footer>
+            Tech AI • Built for technology learning
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+                      </html>
